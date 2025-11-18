@@ -1,5 +1,6 @@
 module.exports = {
     roll: function () {
-        return Math.floor(Math.random()*6)+1;
+        let result = Math.floor(Math.random()*6)+1;
+        return result
     }
 };
